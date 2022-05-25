@@ -1,0 +1,258 @@
+@import "../sass/mixins";
+
+.filtros {
+    a {
+        text-decoration: none;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: smaller;
+        background-color: rgb(133, 255, 133);
+        color: black;
+    }
+}
+
+h4 {
+    margin: 0 0 0 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.informacion {
+    @include informacion;
+}
+
+
+.infoRegistro {
+    @extend .info-registro;
+    justify-content: center;
+    margin-top: 2%;
+
+
+}
+
+.infoContacto {
+    @include contacto;
+}
+
+.infoNosotros {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.fotoInfo {
+    margin: 0 2rem 2rem 2rem;
+    height: 250px;
+    box-shadow: 0 0 7px #000;
+    transition: 300ms;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.parrafo {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+    @extend .formatoParrafos;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.grid-container {
+    grid-gap: 1rem;
+    width: 97%;
+    margin-bottom: 5rem;
+    margin-top: 20px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(1, 400px);
+    grid-template-areas:
+        "img-1 img-2 img-3 img-4"
+    ;
+}
+
+.img-1 {
+    @include fotosGrid;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+
+}
+
+.img-2 {
+    @include fotosGrid;
+
+
+    &:hover {
+        transform: scale(1.15);
+    }
+
+}
+
+.img-3 {
+    @include fotosGrid;
+
+
+    &:hover {
+        transform: scale(1.15);
+    }
+
+}
+
+.img-4 {
+    @include fotosGrid;
+
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+
+
+
+.imgContainer {
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(1, 80%);
+    grid-template-areas:
+        "imgCatalogo1 imgCatalogo2 imgCatalogo3 imgCatalogo4 imgCatalogo5"
+    ;
+}
+
+.imgCatalogo1 {
+    grid-area: imgCatalogo1;
+    margin-top: 10px;
+    @include fotosGrid;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.imgCatalogo2 {
+    grid-area: imgCatalogo2;
+    margin-top: 10px;
+    @include fotosGrid;
+
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.imgCatalogo3 {
+    grid-area: imgCatalogo3;
+    margin-top: 10px;
+    @include fotosGrid;
+
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.imgCatalogo4 {
+    grid-area: imgCatalogo4;
+    margin-top: 10px;
+    @include fotosGrid;
+
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+.imgCatalogo5 {
+    grid-area: imgCatalogo5;
+    margin-top: 10px;
+    @include fotosGrid;
+
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+section {
+    form {
+        legend {
+            font-size: xx-large;
+        }
+
+        .formulario {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .form {
+            margin: 1rem 0 1rem 0;
+
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .inputReg {
+                margin: 1rem 0 0 0;
+            }
+        }
+
+        .formularioContacto {
+            margin: 1rem 0 1rem 0;
+            margin-bottom: 12px;
+            text-align: center;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+
+            input {
+                margin: 0 1rem 0 1rem;
+            }
+
+            textarea {
+                margin: 0 1rem 0 1rem;
+            }
+
+            .inputContacto {
+                margin: 1rem 1rem 1rem 1rem;
+            }
+        }
+
+    }
+}
+
+
+.inputContacto {
+    margin-top: 12px;
+}

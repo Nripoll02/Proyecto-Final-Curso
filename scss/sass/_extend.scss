@@ -1,0 +1,12 @@
+@import "../variables/variables.scss";
+
+.info-registro{
+    display: flex;
+    background-color: $fondo;
+    box-shadow: 0 0 10px #000;
+}
+.formatoParrafos{
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+}
+

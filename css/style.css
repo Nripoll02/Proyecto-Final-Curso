@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;500&family=Oswald&display=swap");
+header .logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  width: 100%;
+  background-image: linear-gradient(to right, #98ce54, #d9ffac);
+  box-shadow: 0 0 7px #000; }
+
+header .navbar-collapse {
+  display: flex;
+  flex-direction: row; }
+
+header nav a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  background-color: #98ce54;
+  border: 4px #98ce54 solid;
+  box-shadow: 0 0 7px #000; }
+  header nav a:hover {
+    color: #000; }
+
+footer .footer {
+  margin-bottom: 0%;
+  background-color: #406640; }
+
+footer .nav-link {
+  color: white; }
+
+.filtros a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: smaller;
+  background-color: #85ff85;
+  color: black; }
+
+h4 {
+  margin: 0 0 0 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic; }
+  h2:hover {
+    color: white; }
+
+.informacion {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  margin-top: 2%;
+  background-color: #98ce54;
+  box-shadow: 0 0 10px #000; }
+
+.infoRegistro {
+  justify-content: center;
+  margin-top: 2%; }
+
+.infoContacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  background-color: #98ce54;
+  box-shadow: 0 0 10px #000; }
+
+.infoNosotros {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: oblique; }
+  .infoNosotros:hover {
+    color: white; }
+
+.fotoInfo {
+  margin: 0 2rem 2rem 2rem;
+  height: 250px;
+  box-shadow: 0 0 7px #000;
+  transition: 300ms; }
+  .fotoInfo:hover {
+    transform: scale(1.15); }
+
+.parrafo {
+  display: flex;
+  margin-top: 2%;
+  margin-left: 2%; }
+  .parrafo:hover {
+    color: white; }
+
+.grid-container {
+  grid-gap: 1rem;
+  width: 97%;
+  margin-bottom: 5rem;
+  margin-top: 20px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(1, 400px);
+  grid-template-areas: "img-1 img-2 img-3 img-4"; }
+
+.img-1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  box-shadow: 0 0 10px #000;
+  transition: 300ms; }
+  .img-1:hover {
+    transform: scale(1.15); }
+
+.img-2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  box-shadow: 0 0 10px #000;
+  transition: 300ms; }
+  .img-2:hover {
+    transform: scale(1.15); }
+
+.img-3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  box-shadow: 0 0 10px #000;
+  transition: 300ms; }
+  .img-3:hover {
+    transform: scale(1.15); }
+
+.img-4 {
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  box-shadow: 0 0 10px #000;
+  transition: 300ms; }
+  .img-4:hover {
+    transform: scale(1.15); }
+
+.imgContainer {
+  width: 100%;
+  margin-top: 20px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(1, 80%);
+  grid-template-areas: "imgCatalogo1 imgCatalogo2 imgCatalogo3 imgCatalogo4 imgCatalogo5"; }
+
+.imgCatalogo1 {
+  grid-area: imgCatalogo1;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  box-shadow: 0 0 10px #000;
+  transition: 300ms; }
+  .imgCatalogo1:hover {
+    transform: scale(1.15); }
+
+.imgCatalogo2 {
+  grid-area: imgCatalogo2;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  box-shadow: 0 0 10px #000;
+  transition: 300ms; }
+  .imgCatalogo2:hover {
+    transform: scale(1.15); }
+
+.imgCatalogo3 {
+  grid-area: imgCatalogo3;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  box-shadow: 0 0 10px #000;
+  transition: 300ms; }
+  .imgCatalogo3:hover {
+    transform: scale(1.15); }
+
+.imgCatalogo4 {
+  grid-area: imgCatalogo4;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  box-shadow: 0 0 10px #000;
+  transition: 300ms; }
+  .imgCatalogo4:hover {
+    transform: scale(1.15); }
+
+.imgCatalogo5 {
+  grid-area: imgCatalogo5;
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 80%;
+  box-shadow: 0 0 10px #000;
+  transition: 300ms; }
+  .imgCatalogo5:hover {
+    transform: scale(1.15); }
+
+section form legend {
+  font-size: xx-large; }
+
+section form .formulario {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+section form .form {
+  margin: 1rem 0 1rem 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  section form .form .inputReg {
+    margin: 1rem 0 0 0; }
+
+section form .formularioContacto {
+  margin: 1rem 0 1rem 0;
+  margin-bottom: 12px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  section form .formularioContacto input {
+    margin: 0 1rem 0 1rem; }
+  section form .formularioContacto textarea {
+    margin: 0 1rem 0 1rem; }
+  section form .formularioContacto .inputContacto {
+    margin: 1rem 1rem 1rem 1rem; }
+
+.inputContacto {
+  margin-top: 12px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #ffffff; }
+
+.info-registro, .infoRegistro {
+  display: flex;
+  background-color: #98ce54;
+  box-shadow: 0 0 10px #000; }
+
+.formatoParrafos, .parrafo {
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large; }
+
+@media screen and (max-width: 760px) {
+  .grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 400px);
+    grid-template-areas: "img-1 img-2" "img-3 img-4"; }
+  .img-1 {
+    grid-area: img-1;
+    width: 300px;
+    height: 300px; }
+  .img-2 {
+    grid-area: img-2;
+    width: 300px;
+    height: 300px; }
+  .img-3 {
+    grid-area: img-3;
+    width: 300px;
+    height: 300px; }
+  .img-4 {
+    grid-area: img-4;
+    width: 300px;
+    height: 300px; }
+  .imgContainer {
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "imgCatalogo1 imgCatalogo2 imgCatalogo3" "imgCatalogo4 imgCatalogo5 imgCatalogo6"; }
+  .imgCatalogo1 {
+    grid-area: imgCatalogo1;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; }
+  .imgCatalogo2 {
+    grid-area: imgCatalogo2;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; }
+  .imgCatalogo3 {
+    grid-area: imgCatalogo3;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; }
+  .imgCatalogo4 {
+    grid-area: imgCatalogo4;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; }
+  .imgCatalogo5 {
+    grid-area: imgCatalogo5;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; } }
+
+@media screen and (max-width: 620px) {
+  .grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 400px);
+    grid-template-areas: "img-1 img-2" "img-3 img-4"; }
+  .img-1 {
+    grid-area: img-1;
+    width: 200px;
+    height: 200px; }
+  .img-2 {
+    grid-area: img-2;
+    width: 200px;
+    height: 200px; }
+  .img-3 {
+    grid-area: img-3;
+    width: 200px;
+    height: 200px; }
+  .img-4 {
+    grid-area: img-4;
+    width: 200px;
+    height: 200px; }
+  .imgContainer {
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(2, 50%);
+    grid-template-areas: "imgCatalogo1 imgCatalogo2 imgCatalogo3" "imgCatalogo4 imgCatalogo5 imgCatalogo6"; }
+  .imgCatalogo1 {
+    grid-area: imgCatalogo1;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; }
+  .imgCatalogo2 {
+    grid-area: imgCatalogo2;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; }
+  .imgCatalogo3 {
+    grid-area: imgCatalogo3;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; }
+  .imgCatalogo4 {
+    grid-area: imgCatalogo4;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; }
+  .imgCatalogo5 {
+    grid-area: imgCatalogo5;
+    margin-top: 10px;
+    width: 80%;
+    height: 80%; } }
+
+@media screen and (max-width: 450px) {
+  .fotoInfo {
+    width: 350px;
+    height: 153px; } }
+
+@media screen and (max-width: 350px) {
+  .fotoInfo {
+    width: 250px;
+    height: 90px; } }
+
+@media screen and (max-width: 400px) {
+  .grid-container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 60%);
+    grid-template-rows: repeat(4, 400px);
+    grid-template-areas: "img-1" "img-2" "img-3" "img-4"; }
+  .img-1 {
+    grid-area: img-1;
+    width: 200px;
+    height: 200px; }
+  .img-2 {
+    grid-area: img-2;
+    width: 200px;
+    height: 200px; }
+  .img-3 {
+    grid-area: img-3;
+    width: 200px;
+    height: 200px; }
+  .img-4 {
+    grid-area: img-4;
+    width: 200px;
+    height: 200px; }
+  .imgContainer {
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(5, 20%);
+    grid-template-areas: "imgCatalogo1" "imgCatalogo2" "imgCatalogo3" "imgCatalogo4" "imgCatalogo5" "imgCatalogo6"; }
+  .imgCatalogo1 {
+    grid-area: imgCatalogo1;
+    margin-top: 10px;
+    width: 65%;
+    height: 65%; }
+  .imgCatalogo2 {
+    grid-area: imgCatalogo2;
+    margin-top: 10px;
+    width: 65%;
+    height: 65%; }
+  .imgCatalogo3 {
+    grid-area: imgCatalogo3;
+    margin-top: 10px;
+    width: 65%;
+    height: 65%; }
+  .imgCatalogo4 {
+    grid-area: imgCatalogo4;
+    margin-top: 10px;
+    width: 65%;
+    height: 65%; }
+  .imgCatalogo5 {
+    grid-area: imgCatalogo5;
+    margin-top: 10px;
+    width: 65%;
+    height: 65%; } }
+
+@media screen and (max-widht: 380px) {
+  form .formularioContacto {
+    text-align: center;
+    width: 100%; } }
+
+@media screen and (max-width: 280px) {
+  .grid-container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 60%);
+    grid-template-rows: repeat(4, 400px);
+    grid-template-areas: "img-1" "img-2" "img-3" "img-4"; }
+  .img-1 {
+    grid-area: img-1;
+    width: 150px;
+    height: 150px; }
+  .img-2 {
+    grid-area: img-2;
+    width: 150px;
+    height: 150px; }
+  .img-3 {
+    grid-area: img-3;
+    width: 150px;
+    height: 150px; }
+  .img-4 {
+    grid-area: img-4;
+    width: 150px;
+    height: 150px; }
+  .imgContainer {
+    width: 100%;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(5, 20%);
+    grid-template-areas: "imgCatalogo1" "imgCatalogo2" "imgCatalogo3" "imgCatalogo4" "imgCatalogo5" "imgCatalogo6"; }
+  .imgCatalogo1 {
+    grid-area: imgCatalogo1;
+    margin-top: 10px;
+    width: 55%;
+    height: 55%; }
+  .imgCatalogo2 {
+    grid-area: imgCatalogo2;
+    margin-top: 10px;
+    width: 55%;
+    height: 55%; }
+  .imgCatalogo3 {
+    grid-area: imgCatalogo3;
+    margin-top: 10px;
+    width: 55%;
+    height: 55%; }
+  .imgCatalogo4 {
+    grid-area: imgCatalogo4;
+    margin-top: 10px;
+    width: 55%;
+    height: 55%; }
+  .imgCatalogo5 {
+    grid-area: imgCatalogo5;
+    margin-top: 10px;
+    width: 55%;
+    height: 55%; } }

@@ -1,0 +1,376 @@
+@import "partials/header";
+@import "partials/footer";
+@import "partials/layout";
+@import "partials/body";
+@import "sass/extend";
+@import "sass/mixins";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;500&family=Oswald&display=swap");
+
+@media screen and (max-width: 760px) {
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 400px);
+        grid-template-areas:
+            "img-1 img-2"
+            "img-3 img-4";
+    }
+
+    .img-1 {
+        grid-area: img-1;
+        width: 300px;
+        height: 300px;
+    }
+
+    .img-2 {
+        grid-area: img-2;
+        width: 300px;
+        height: 300px;
+    }
+
+    .img-3 {
+        grid-area: img-3;
+        width: 300px;
+        height: 300px;
+    }
+
+    .img-4 {
+        grid-area: img-4;
+        width: 300px;
+        height: 300px;
+    }
+
+    .imgContainer {
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(2, 50%);
+        grid-template-areas:
+            "imgCatalogo1 imgCatalogo2 imgCatalogo3"
+            "imgCatalogo4 imgCatalogo5 imgCatalogo6";
+    }
+
+    .imgCatalogo1 {
+        grid-area: imgCatalogo1;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .imgCatalogo2 {
+        grid-area: imgCatalogo2;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .imgCatalogo3 {
+        grid-area: imgCatalogo3;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .imgCatalogo4 {
+        grid-area: imgCatalogo4;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .imgCatalogo5 {
+        grid-area: imgCatalogo5;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .grid-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 400px);
+        grid-template-areas:
+            "img-1 img-2"
+            "img-3 img-4";
+    }
+
+    .img-1 {
+        grid-area: img-1;
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-2 {
+        grid-area: img-2;
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-3 {
+        grid-area: img-3;
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-4 {
+        grid-area: img-4;
+        width: 200px;
+        height: 200px;
+    }
+
+    .imgContainer {
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(2, 50%);
+        grid-template-areas:
+            "imgCatalogo1 imgCatalogo2 imgCatalogo3"
+            "imgCatalogo4 imgCatalogo5 imgCatalogo6";
+    }
+
+    .imgCatalogo1 {
+        grid-area: imgCatalogo1;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .imgCatalogo2 {
+        grid-area: imgCatalogo2;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .imgCatalogo3 {
+        grid-area: imgCatalogo3;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .imgCatalogo4 {
+        grid-area: imgCatalogo4;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .imgCatalogo5 {
+        grid-area: imgCatalogo5;
+        margin-top: 10px;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .fotoInfo {
+        width: 350px;
+        height: 153px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .fotoInfo {
+        width: 250px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .grid-container {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 60%);
+        grid-template-rows: repeat(4, 400px);
+        grid-template-areas:
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4";
+    }
+
+    .img-1 {
+        grid-area: img-1;
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-2 {
+        grid-area: img-2;
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-3 {
+        grid-area: img-3;
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-4 {
+        grid-area: img-4;
+        width: 200px;
+        height: 200px;
+    }
+
+    .imgContainer {
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(5, 20%);
+        grid-template-areas:
+            "imgCatalogo1"
+            "imgCatalogo2"
+            "imgCatalogo3"
+            "imgCatalogo4"
+            "imgCatalogo5"
+            "imgCatalogo6";
+    }
+
+    .imgCatalogo1 {
+        grid-area: imgCatalogo1;
+        margin-top: 10px;
+        width: 65%;
+        height: 65%;
+    }
+
+    .imgCatalogo2 {
+        grid-area: imgCatalogo2;
+        margin-top: 10px;
+        width: 65%;
+        height: 65%;
+    }
+
+    .imgCatalogo3 {
+        grid-area: imgCatalogo3;
+        margin-top: 10px;
+        width: 65%;
+        height: 65%;
+    }
+
+    .imgCatalogo4 {
+        grid-area: imgCatalogo4;
+        margin-top: 10px;
+        width: 65%;
+        height: 65%;
+    }
+
+    .imgCatalogo5 {
+        grid-area: imgCatalogo5;
+        margin-top: 10px;
+        width: 65%;
+        height: 65%;
+    }
+
+}
+
+@media screen and (max-widht: 380px) {
+
+    form {
+        .formularioContacto {
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 280px) {
+    .grid-container {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 60%);
+        grid-template-rows: repeat(4, 400px);
+        grid-template-areas:
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4";
+    }
+
+    .img-1 {
+        grid-area: img-1;
+        width: 150px;
+        height: 150px;
+    }
+
+    .img-2 {
+        grid-area: img-2;
+        width: 150px;
+        height: 150px;
+    }
+
+    .img-3 {
+        grid-area: img-3;
+        width: 150px;
+        height: 150px;
+    }
+
+    .img-4 {
+        grid-area: img-4;
+        width: 150px;
+        height: 150px;
+    }
+
+    .imgContainer {
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(5, 20%);
+        grid-template-areas:
+            "imgCatalogo1"
+            "imgCatalogo2"
+            "imgCatalogo3"
+            "imgCatalogo4"
+            "imgCatalogo5"
+            "imgCatalogo6";
+    }
+
+    .imgCatalogo1 {
+        grid-area: imgCatalogo1;
+        margin-top: 10px;
+        width: 55%;
+        height: 55%;
+    }
+
+    .imgCatalogo2 {
+        grid-area: imgCatalogo2;
+        margin-top: 10px;
+        width: 55%;
+        height: 55%;
+    }
+
+    .imgCatalogo3 {
+        grid-area: imgCatalogo3;
+        margin-top: 10px;
+        width: 55%;
+        height: 55%;
+    }
+
+    .imgCatalogo4 {
+        grid-area: imgCatalogo4;
+        margin-top: 10px;
+        width: 55%;
+        height: 55%;
+    }
+
+    .imgCatalogo5 {
+        grid-area: imgCatalogo5;
+        margin-top: 10px;
+        width: 55%;
+        height: 55%;
+    }
+}
